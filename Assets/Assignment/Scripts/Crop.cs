@@ -9,9 +9,9 @@ public class Crop : Seed
 {
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && isSelected && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) && isSelected && !EventSystem.current.IsPointerOverGameObject()) //checks if left click has been pressed and on the right button, also checks if it is over a UI
         {
-            plant();
+            plant(); //plant the seed
         }
     }
 

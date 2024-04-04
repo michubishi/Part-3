@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1523499857843669398}
   - component: {fileID: 4387458698810587349}
   - component: {fileID: 6291241707723583946}
+  - component: {fileID: 3687781092214722088}
   m_Layer: 0
   m_Name: flowerSeed
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.405405, y: 2.7799225, z: -10}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -158,3 +159,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.246448, y: 0.8594471}
   m_EdgeRadius: 0
+--- !u!114 &3687781092214722088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866371985242658408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695f39606a217814ca9b9718f380099f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: bf80a0c063b2dcf4b9538bbf84c47bc5, type: 3}
+  - {fileID: 21300000, guid: fa79b8145df46784382c6ec828c703a6, type: 3}
+  - {fileID: 21300000, guid: 056212ba987e54843a61085864591273, type: 3}
+  weedPrefab: {fileID: 5255022967256073527, guid: 0bf5787e4f115004eb87298980b2bec9, type: 3}
